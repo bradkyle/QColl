@@ -43,6 +43,10 @@
 .agent.registry.Register["PolygonWSS"];
 .agent.registry.Register["PolygonRest"];
 
+// Interactive Brokers WSS
+.agent.registry.Register["PolygonWSS"];
+.agent.registry.Register["PolygonRest"];
+
 // Intrinio
 .agent.registry.Register["IntrinioRest"];
 .agent.registry.Register["IntrinioWss"];
@@ -55,3 +59,7 @@
 
 // Intrinio
 .agent.registry.Register["TwitterStreaming"];
+
+// Youtube
+.agent.registry.Register["YoutubeCron"];
+.agent.registry.Register["YoutubePyppCron"];
