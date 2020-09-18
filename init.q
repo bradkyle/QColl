@@ -8,7 +8,8 @@
 .agent.registry.Register["BinanceFuturesExec"];
 
 // Okex
-.agent.registry.Register["Okex"];
+.agent.registry.Register["OkexRest"];
+.agent.registry.Register["OkexWSS"];
 .agent.registry.Register["OkexSpotExec"];
 .agent.registry.Register["OkexSwapExec"];
 
@@ -45,3 +46,12 @@
 // Intrinio
 .agent.registry.Register["IntrinioRest"];
 .agent.registry.Register["IntrinioWss"];
+
+// PSAW
+.agent.registry.Register["PSAW"];
+
+// Intrinio
+.agent.registry.Register["RSS"];
+
+// Intrinio
+.agent.registry.Register["TwitterStreaming"];
